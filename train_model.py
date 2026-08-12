@@ -37,7 +37,7 @@
     "sns.set(style='white')\n",
     "\n",
     "# Load Data\n",
-    "dataset = pd.read_csv(r'C:\\Users\\Lalitha\\Desktop\\MLOPS\\iris.csv')\n",
+    "dataset = pd.read_csv("iris.csv)\n",
     "\n",
     "# Feature names (Ensure no extra spaces or parentheses)\n",
     "dataset.columns = [colname.strip(' (cm)').replace(\" \", \"_\") for colname in dataset.columns.tolist()]\n",
